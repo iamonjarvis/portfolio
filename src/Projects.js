@@ -9,12 +9,33 @@ import cookurfood from './assets/cookurfood.png'
 import journalapp from './assets/journalapp.png'
 import anywork from './assets/anyworkk.png'
 import multiclient from './assets/multichatc++.png'
+import artsphere from './assets/artsphere.png'
 
 
 
 const Projects = () => {
 
     const projectsInfos = [
+        {
+    title: 'ArtSphere',
+    photo: artsphere, // Replace 'artsphere' with your imported image variable or path
+    description: "ArtSphere is a social media platform for digital artists. It enables users to post their digital paintings, collaborate in real‑time on artworks, and chat with other creatives. With features like a collaborative painting editor, real-time chat, user profiles, and more, ArtSphere empowers artists to share, connect, and grow their creative community.",
+    github: 'https://github.com/iamonjarvis/ArtSphere-Frontend', // Update with your repository URL
+    link: 'https://1artsphere.netlify.app/',           // Update with your live app URL
+    tools: [
+        'JavaScript',
+        'React',
+        'Node.js',
+        'Express',
+        'MongoDB',
+        'Mongoose',
+        'JWT',
+        'Socket.io',
+        'Apollo GraphQL',
+        'Cloudinary'
+    ]
+},
+
         {
             title: 'Anywork',
             photo: anywork,
