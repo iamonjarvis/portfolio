@@ -11,6 +11,7 @@ import anywork from './assets/anyworkk.png'
 import multiclient from './assets/multichatc++.png'
 import artsphere from './assets/artsphere.png'
 import zept from './assets/zeptoscrap.png'
+import med from './assets/MeDecode.png'
 
 
 
@@ -35,7 +36,22 @@ const Projects = () => {
         'Apollo GraphQL',
         'Cloudinary'
     ]
+},{
+    title: 'MeDecode',
+    photo: med, // Import your image as "medecode"
+    description: 'MeDecode is an AI-powered medical report decoder that simplifies complex medical jargon and delivers actionable insights, including specialist recommendations, precautions, and personalized dietary advice. Built with FastAPI, NLP, and transformer-based summarization.',
+    github: 'https://github.com/iamonjarvis/MeDecode',
+    link: 'https://github.com/iamonjarvis/MeDecode',
+    tools: [
+        'Python',
+        'FastAPI',
+        'SciSpaCy',
+        'Transformers',
+        'Tesseract OCR',
+        'Docker'
+    ]
 },
+
 
         {
             title: 'Anywork',
