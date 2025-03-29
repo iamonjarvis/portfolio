@@ -10,6 +10,7 @@ import journalapp from './assets/journalapp.png'
 import anywork from './assets/anyworkk.png'
 import multiclient from './assets/multichatc++.png'
 import artsphere from './assets/artsphere.png'
+import zept from './assets/zeptoscrap.png'
 
 
 
@@ -53,6 +54,22 @@ const Projects = () => {
                 'EXPRESS',
             ]
         },
+        {
+  title: 'Blinkit & Zepto Scraper',
+  photo: zept, // Replace 'blinkitZepto' with your imported image variable or path
+  description: "This project is a Node.js-based web scraper that uses Puppeteer to concurrently extract product details from both Blinkit and Zepto. It leverages asynchronous operations and concurrent page handling to efficiently aggregate data from multiple sources into a single API endpoint built with Express.",
+  github: 'https://github.com/iamonjarvis/Blinkit-Zepto-product-backend', // Update with your repository URL
+  link: 'https://github.com/iamonjarvis/Blinkit-Zepto-product-backend', // Update with your live deployment URL
+  tools: [
+    'JavaScript',
+    'Node.js',
+    'Express',
+    'Puppeteer',
+    'Asynchronous Programming',
+    'REST API'
+  ]
+},
+
         {
             title: 'Reflexion-journal-app',
             photo: journalapp,
