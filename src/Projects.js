@@ -12,6 +12,7 @@ import multiclient from './assets/multichatc++.png'
 import artsphere from './assets/artsphere.png'
 import zept from './assets/zeptoscrap.png'
 import med from './assets/MeDecode.png'
+import sniffdog from './assets/SniffDog.png'
 
 
 
@@ -84,7 +85,24 @@ const Projects = () => {
     'Asynchronous Programming',
     'REST API'
   ]
-},
+},{
+title: 'SniffDog',
+photo: sniffdog, // Replace 'sniffdog' with your imported image variable or path
+description: "SniffDog is a Python/Tkinter packet sniffer with a live, color-coded GUI that displays timestamps, ports, headers and supports start/stop, interface selection, and filtering.",
+github: '[https://github.com/iamonjarvis/SniffDog](https://github.com/iamonjarvis/SniffDog)',
+link: 'https\://github.com/iamonjarvis/SniffDog/releases/tag/0.1.0', // Link to your latest release page or documentation
+tools: [
+'Python',
+'Scapy',
+'Tkinter',
+'threading',
+'socket',
+'PyInstaller',
+'setuptools',
+'GitHub Actions'
+]
+}
+,
 
         {
             title: 'Reflexion-journal-app',
