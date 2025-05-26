@@ -12,7 +12,7 @@ import multiclient from './assets/multichatc++.png'
 import artsphere from './assets/artsphere.png'
 import zept from './assets/zeptoscrap.png'
 import med from './assets/MeDecode.png'
-import sniffdog from './assets/SniffDog.png'
+import sniffdog from './assets/SniffDog1.png'
 
 
 
