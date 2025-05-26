@@ -89,8 +89,8 @@ const Projects = () => {
 title: 'SniffDog',
 photo: sniffdog, // Replace 'sniffdog' with your imported image variable or path
 description: "SniffDog is a Python/Tkinter packet sniffer with a live, color-coded GUI that displays timestamps, ports, headers and supports start/stop, interface selection, and filtering.",
-github: '[https://github.com/iamonjarvis/SniffDog](https://github.com/iamonjarvis/SniffDog)',
-link: 'https\://github.com/iamonjarvis/SniffDog/releases/tag/0.1.0', // Link to your latest release page or documentation
+github: 'https://github.com/iamonjarvis/SniffDog',
+link: 'https://github.com/iamonjarvis/SniffDog/releases/tag/0.1.0', // Link to your latest release page or documentation
 tools: [
 'Python',
 'Scapy',
