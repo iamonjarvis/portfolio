@@ -1,6 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
-import profile from "./assets/profile.png";
+import profile from "./assets/iamsahilpatra.png";
 import { useEffect, useState } from "react";
 
 const About = () => {
