@@ -13,7 +13,7 @@ const Contact = () => {
 
                     {/* New button to download resume */}
                     <div className="download-resume-button">
-                        <a href="https://drive.google.com/file/d/1FKODZfeUr10g3dk6nAbNGmtR_T3yMzhC/view?usp=sharing" download="Sahil_Resume" className="download-link">
+                        <a href="https://drive.google.com/file/d/1n4U9aOtcV2-qsJybd7y4jH29nfC71vZP/view?usp=sharing" download="Sahil_Resume" className="download-link">
                             Download Resume
                         </a>
                     </div>
