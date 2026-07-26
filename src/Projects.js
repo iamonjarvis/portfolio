@@ -324,51 +324,51 @@ const RightProject = (props) => {
     )
 }
 
-const MinorProjects = (props) => {
-    const [minorProjectIndex, setMinorProjectIndex] = useState()
+// const MinorProjects = (props) => {
+//     const [minorProjectIndex, setMinorProjectIndex] = useState()
 
-    return (
-        <div className="minor-projects-area">
-            {props.projects.map((item, index) => (
-                <div className="minor-project">
-                    <div className="minor-project-title"  onClick={() => {
-                            if(index !== minorProjectIndex){
-                                setMinorProjectIndex(index);
-                            }
-                            else {
-                                setMinorProjectIndex()
-                            }
-                        }}>
-                        <span className='orange'>{item.title}</span>
-                        { (index === minorProjectIndex && <span className="orange">-</span>) || <div className="orange">+</div>}
-                    </div>
-                    { index === minorProjectIndex && (
-                    <Fade direction="down" duration={500}>
-                        <div className="minor-project-expand">
-                            <span className='minor-project-description'>{item.description}</span>
-                            <div className="minor-projects-footer">
-                                <div className="minor-projects-tools">
-                                    {item.tools.map((item) => (
-                                        <div className='tool'>{item}</div>
-                                    ))}
-                                </div>
-                                <div className="minor-projects-links">
-                                    {item.link !== "" && <a href={item.link} target='_blank' rel='noreferrer'>
-                                        <LaunchIcon className='icon'/>          
-                                    </a>}
-                                    {item.github !== "" && <a href={item.github} target='_blank' rel='noreferrer'>
-                                        <GitHubIcon className='icon'/>          
-                                    </a>}
-                                </div>
-                            </div>
-                        </div>
-                    </Fade>
-                    )}
-                </div>
-            ))
-        }
-        </div>
-    )
-}
+//     return (
+//         <div className="minor-projects-area">
+//             {props.projects.map((item, index) => (
+//                 <div className="minor-project">
+//                     <div className="minor-project-title"  onClick={() => {
+//                             if(index !== minorProjectIndex){
+//                                 setMinorProjectIndex(index);
+//                             }
+//                             else {
+//                                 setMinorProjectIndex()
+//                             }
+//                         }}>
+//                         <span className='orange'>{item.title}</span>
+//                         { (index === minorProjectIndex && <span className="orange">-</span>) || <div className="orange">+</div>}
+//                     </div>
+//                     { index === minorProjectIndex && (
+//                     <Fade direction="down" duration={500}>
+//                         <div className="minor-project-expand">
+//                             <span className='minor-project-description'>{item.description}</span>
+//                             <div className="minor-projects-footer">
+//                                 <div className="minor-projects-tools">
+//                                     {item.tools.map((item) => (
+//                                         <div className='tool'>{item}</div>
+//                                     ))}
+//                                 </div>
+//                                 <div className="minor-projects-links">
+//                                     {item.link !== "" && <a href={item.link} target='_blank' rel='noreferrer'>
+//                                         <LaunchIcon className='icon'/>          
+//                                     </a>}
+//                                     {item.github !== "" && <a href={item.github} target='_blank' rel='noreferrer'>
+//                                         <GitHubIcon className='icon'/>          
+//                                     </a>}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </Fade>
+//                     )}
+//                 </div>
+//             ))
+//         }
+//         </div>
+//     )
+// }
  
 export default Projects;
